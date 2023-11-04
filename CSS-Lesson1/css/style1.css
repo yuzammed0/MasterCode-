@@ -1,0 +1,50 @@
+.bg-red{
+    background-color: red;
+    color: #fff;
+}
+
+.yellow{
+    color: yellow;
+}
+
+.purple{
+    background-color: purple;
+    color: #fff;
+}
+
+.bg-mint{
+    color: #fff;
+    background-color: aqua;
+}
+
+.bg-blue{
+    background-color: blue;
+}
+
+.red{
+    color: red;
+}
+
+.blue{
+    color: blue;
+}
+
+.blue li{
+    color: blue;
+    background-color: yellow;
+}
+
+.bg-dark{
+    color: #fff;
+    background-color: #000;
+}
+
+.blue1 li{
+    color: blue;
+}
+
+.blue1 a{
+    color: #fff;
+    background-color: yellow;
+}
+
