@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-weight: normal;
+}
+
+.nav{
+    background: blue;
+    text-align: center;
+    color: #fff;
+    font-size: 21px;
+}
+
+.bold{
+    font-weight: 800;
+}
+
+p{
+    padding: 1rem 0;
+}
+
+.pad-left{
+    padding-left: 2rem;
+}
+
+.m-1{
+    margin-bottom: 1rem;
+}
+
+ul{
+    padding-left: 2rem;
+
+}
+
+.outline{
+    text-decoration: underline;
+}
+
+.boutline{
+    text-decoration: underline;
+    font-weight: 800;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.red{
+    color: red;
+    font-weight: 800;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
