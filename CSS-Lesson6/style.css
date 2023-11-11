@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Caramel&family=Lora:wght@400;500&display=swap');
+
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Lora', serif;
+}
+
+.header{
+    width: 100%;
+    background: #1D1E26;
+    color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.header ul{
+    margin: auto;
+    width: fit-content;
+    list-style: none;
+}
+
+.nav-link{
+    display: inline-block;
+    margin: 0 10px;
+    padding: 10px 15px;
+}
+
+.nav-link:nth-child(2){
+    background-color: #f14;
+}
+
+.nav-link a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.main{
+    background: url(background-image.svg);
+    padding: 300px 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.main h2,.main p{
+    text-align: center;
+    color: #fff;
+}
+
+.main .icon{
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+}
+
+.icon img{
+    width: 40px;
+}
+
+#biography{
+    background-color: #1D1E26;
+    padding: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.left{
+    width: 400px;
+    display: inline-block;
+    color: #fff;
+    margin: 0 auto;
+
+}
+
+.left h3{
+    text-align: center;
+}
+
+.left p{
+    text-align: justify;
+    font-size: 14px;
+    padding: 10px 0;
+}
+
+
+.right{
+    width: 400px;
+    display: inline-block;
+}
+
+.right img{
+    width: 70%;
+
+}
+
+#dis{
+    background: #1D1E26;
+    padding: 0 100px;
+    margin-top: 1px;
+}
+
+.title-dis{
+    text-align: center;
+    padding: 50px;
+    color: #fff;
+    font-size: 24px;
+}
+
+.card{
+    padding: 10px;
+    display: flex;
+}
+
+.card .card-l,.card-r{
+    width: fit-content;
+}
+
+.card-l img{
+    width: 150px;
+}
+
+.card-l span{
+    color: #fff;
+    text-align: center;
+    display: block;
+}
+
+.card-r{
+    text-align: left;
+    color: #fff;
+    margin: 0 10px;
+    white-space: nowrap;
+}
+
+.card-r ul{
+    list-style: none;
+    font-size: 12px;
+}
+
+.card-r h4{
+    font-size: 16px;
+}
+
+.top{
+    display: flex;
+    justify-content: space-around;
+}
+
+#dis a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.center{
+    text-align: center;
+    display: block;
+    padding: 30px;
+}
+
+
+#footer{
+    padding: 10px 40px;
+    background-color: #f14;
+    color: #fff;
+}
+
+
+
+
+
