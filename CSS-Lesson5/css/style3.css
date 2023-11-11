@@ -1,0 +1,43 @@
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 50px;
+}
+
+div{
+    background-color: aquamarine;
+    border: 1px solid #000;
+}
+
+.div1{
+    width: 300px;
+    height: 200px;
+    position: relative;
+}
+
+.div2{
+    position: relative;
+    width: 200px;
+    height: 300px;
+    right: -150px;
+    top: 100px;
+}
+
+.div3{
+    width: 500px;
+    height: 100px;
+    left: -150px;
+    bottom: -200px;
+    position: relative;
+}
+
+.div4{
+    height: 350px;
+    width: 100px;
+    right: -400px;
+    position: relative;
+    top: -300px;
+}

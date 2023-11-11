@@ -1,0 +1,46 @@
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+
+}
+
+.header{
+    width: 100%;
+    background-color: blue;
+    padding: 15px;
+    margin: 15px 0;
+}
+
+.container{
+    height: 300px;
+    width: 95%;
+    background-color: #888;
+    margin: 100px auto;
+    position: relative;
+}
+
+.relative{
+    position: relative;
+    width: 80%;
+    padding: 15px 0;
+    margin: 0 auto;
+    background-color: green;
+    top: -20px;
+}
+
+.static{
+    width: 80%;
+    padding: 15px 0;
+    background-color: blue;
+    margin: 15px auto;
+}
+
+.absolute{
+    width: 250px;
+    height: 80px;
+    background-color: red;
+    position: absolute;
+    right: 20px;
+    top: -30px;
+}

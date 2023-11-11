@@ -1,0 +1,38 @@
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 400px;
+    height: 500px;
+    border: 1px solid red;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.one,.two,.three,.four{
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.one{
+    position: relative;
+    left: -40px;
+    background-color: aqua;
+}
+
+.two{
+    background-color: blue;
+}
+
+.three{
+    background-color: red;
+}
+
+.four{
+    background-color: purple;
+}

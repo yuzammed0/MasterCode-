@@ -1,0 +1,38 @@
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+}
+
+.title{
+    width: 100%;
+    padding: 10px 0;
+    background-color: #888;
+    text-align: center;
+    color: #fff;
+}
+
+.left ,.right,.img{
+    display: inline-block;
+}
+
+.left{
+    width: 60%;
+    padding: 10px 20px;
+}
+
+.right{
+    width: 35%;
+    padding: 10px;
+}
+
+.img{
+    width: 200px;
+}
+
+.img img{
+    width: 100%;
+}
+
+.left p{
+    display: inline-block;
+}

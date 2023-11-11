@@ -1,0 +1,47 @@
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    padding: 10px;
+    border: 1px solid #888;
+    max-width: 600px;
+    height: 300px;
+    margin: 0 auto;
+    overflow-y: auto;
+    position: relative;
+}
+
+.left{
+    width: 50%;
+    display: inline-block;
+    position: relative;
+}
+
+.right{
+    width: 49%;
+    display: inline-block;
+    position: relative;
+
+}
+
+p{
+    padding: 10px 0;
+}
+
+.fixed{
+    background-color: #f14;
+    padding: 20px 10px;
+    position: fixed;
+    top:10px;
+    width: 250px;
+}
+
+.sticky{
+    background-color: green;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    padding: 20px 10px;
+}

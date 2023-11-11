@@ -1,0 +1,46 @@
+.static,.absolute,.fixed,.relative{
+    width: 100px;
+    height: 100px;
+    background-color:#888;
+    display: inline-block;
+    margin: 1px;
+}
+
+.static{
+    background-color: orange;
+}
+
+.relative{
+    background: blue;
+    position: relative;
+    top: -10px;
+    left: -5px;
+}
+
+.fixed{
+    background-color: red;
+    position: fixed;
+}
+
+.one,.two,.three{
+    position: relative;
+    left: 150px;
+    padding: 0 10px; 
+    background-color: aquamarine;
+    width: 350px;
+    margin-top: 5px;
+}
+
+.two .static:nth-child(2){
+    margin-left: 120px;
+}
+
+.three .static:nth-child(3){
+    margin-left: 120px;
+}
+
+.absolute{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
