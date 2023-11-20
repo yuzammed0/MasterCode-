@@ -1,0 +1,15 @@
+span{
+    color: green;
+    font-size: 21px;
+}
+
+p{
+    width: 100px;
+    background-color: yellow;
+    padding: 5px;
+    text-align: center;
+}
+
+p:active{
+    background-color: black;
+}

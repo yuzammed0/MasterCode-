@@ -1,0 +1,27 @@
+label{
+    margin-right: 20px;
+}
+
+form div{
+    margin: 5px 0;
+}
+
+input[type='reset']{
+    margin-left: 20px;
+}
+
+.first{
+    width: 300px;
+    padding: 10px;
+    background-color: mediumspringgreen;
+}
+
+
+.second{
+    width: 300px;
+    padding: 10px;
+    background-color: yellow;
+}
+
+
+

@@ -1,0 +1,22 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.green{
+    font-size: 24px;
+    font-weight: 600;
+    color: green;
+}
+
+label{
+    margin-right: 20px;
+}
+
+input:focus{
+    background-color: #888;
+}

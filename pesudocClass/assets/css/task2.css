@@ -1,0 +1,35 @@
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column-reverse;
+    gap: 10px;
+}
+
+button{
+    padding: 10px 30px;
+    background-color: #0800ff;
+    border: none;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+span{
+    font-size: 21px;
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.hov{
+    display: none;
+}
+
+button:hover ~ .def{
+    display: none;
+}
+
+button:hover ~ .hov{
+    display: block;
+}
