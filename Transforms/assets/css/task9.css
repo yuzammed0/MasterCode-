@@ -1,0 +1,28 @@
+.first{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+.second{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    margin-top: 50px;
+}
+
+.first:hover {
+    animation: width 1s forwards;
+}
+
+.first:hover ~ .second{
+    animation: width 1s 1s forwards;
+}
+
+@keyframes width{
+    from{
+        width: 100px;
+    }to{
+        width: 400px;
+    }
+}

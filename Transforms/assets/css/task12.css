@@ -1,0 +1,27 @@
+div{
+    padding: 50px;
+    background-color: rgb(126, 126, 255);
+    border-radius: 50%;
+    animation: radius 4s infinite linear;
+    position: absolute;
+    left: 20px;
+    top: 300px;
+    transform-origin: 100px;
+}
+
+@keyframes radius{
+    0%{
+        padding: 50px;
+        left: 20px;
+    }
+    
+    50%{
+        padding: 150px;
+        left: 300px;
+    }
+
+    100%{
+        padding: 50px;
+        left: 20px;
+    }
+}

@@ -1,0 +1,78 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.boxs{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    grid-template-areas: 
+    "b1 b2"
+    "b3 b4";
+    position: relative;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.box1{
+    background-color: red;
+    
+}
+
+.boxs div{
+    width: 100px;
+    height: 100px;
+}
+
+.boxs:hover .box1{
+    transform: rotate(90deg);
+    transition: .5s;
+    transform-origin: top left;
+}
+
+.boxs:hover .box3{
+    transform: rotate(-90deg);
+    transition: .5s;
+    transform-origin: bottom left;
+}
+
+.box2{
+    background-color: green;
+    
+}
+
+.box3{
+    background-color: blue;
+
+}
+
+.boxs:hover .box2{
+    transform: rotate(-90deg);
+    transition: .5s;
+    transform-origin: top right;
+}
+
+.box4{
+    background-color: yellow;
+}
+
+.boxs:hover .box4{
+    transform: rotate(90deg);
+    transition: .4s;
+    transform-origin: bottom right;
+}
+
+.yazi{
+    position: absolute;
+    z-index: -1;
+    font-family: 'Courier New', Courier, monospace;
+    left: 50%;
+    top: 50%;
+    font-size: 21px;
+    transform: translate(-50%,-50%);
+}

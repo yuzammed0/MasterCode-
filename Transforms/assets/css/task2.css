@@ -1,0 +1,52 @@
+.animation1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 100px;
+}
+
+.divs{
+    display: flex;
+    align-self: center;
+}
+
+span{
+    color: #fff;
+}
+.animation1 .box1 ,.box2{
+    width: 150px;
+    display: inline-block;
+    height: 150px;
+    background-color: green;
+    animation: rotate .5s 2;
+    margin-bottom: 10px;
+    margin:20px 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box2{
+    background-color: #f14;
+}
+
+
+.animation1 .btn{
+    padding: 15px 5px;
+    border: none;
+    color: #fff;
+    font-weight: 600;
+    background-color: #f14;
+}
+
+@keyframes rotate{
+    to{
+        transform: rotate(360deg);
+    }from{
+        transform: rotat(0deg);
+    }
+}
+
+.btn:hover ~ .box{
+    transform: scale(1.2);
+}

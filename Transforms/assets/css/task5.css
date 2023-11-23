@@ -1,0 +1,12 @@
+div{
+    margin: 20px auto;
+    width: 300px;
+    height: 150px;
+    background-color: purple;
+    transition: transform 1s;
+
+}
+
+div:hover{
+    transform: scale(1.2);
+}
