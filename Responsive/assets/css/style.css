@@ -1,0 +1,551 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@300;500;600;700&display=swap');
+
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+    font-family: 'Epilogue', sans-serif;
+    list-style: none;
+    text-decoration: none;
+
+}
+
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+header .container{
+    display:flex ;
+    justify-content: space-between;
+    padding: 15px 0px;
+    align-items: center;
+}
+
+.logo span{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.navbar ul{
+    display: flex;
+}
+
+.navbar ul li a{
+    color: #000;
+    margin-left: 20px;
+    font-weight: 300;
+}
+
+main .row-main{
+    display: flex;
+    align-items: center;
+    padding: 80px 0;
+}
+
+.left-main{
+    flex: 2;
+}
+
+.left-main h1{
+    font-size:5rem;
+    margin: 20px 0;
+}
+
+.left-main p{
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.right-main{
+    display: flex;
+    justify-content: center;
+    flex: 1;
+}
+
+
+.right-main img:nth-child(1){
+    width: 100%;
+}
+
+.right-main div{
+    position: relative;
+    padding: 20px;
+}
+
+.card-work img{
+    width: 100%;
+}
+
+.square{
+    position: absolute;
+    width: 100px;
+    left: -50px;
+    bottom: 100px;
+}
+
+.circle{
+    width: 100px;
+    position: absolute;
+    right: -20px;
+}
+
+#logo{
+    padding: 50px 0;
+}
+
+#logo .container{
+    padding: 0 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#cards{
+    padding: 50px 0;
+}
+
+#cards .row-card{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.row-card .card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.card img{
+    width: 50%;
+}
+
+.card h3{
+    font-size: 28px;
+    font-weight: 400;
+}
+
+
+.card p{
+    text-align: center;
+    font-weight: 300;
+    width: 250px;
+}
+
+#work{
+    padding: 50px 0;
+}
+
+.title{
+    text-align: center;
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.row-work{
+    display: grid;
+    grid-template-areas: 
+    "c1 c2 c3"
+    "c4 c5 c6";
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.card-work{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.card-work h3{
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.card-work span{
+    font-size: 16px;
+    font-weight: 300;
+}
+
+#clients{
+    padding: 50px 0;
+}
+
+.row-client{
+    margin-top: 30px;
+    flex-direction:row;
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+.card-client{
+    padding: 15px;
+    background: #F3F3F3;
+}
+
+.card-client p{
+    font-size: 16px;
+    word-spacing: 5px;
+}
+
+
+.card-client .profile{
+    margin-top: 200px;
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.star{
+    margin-bottom: 5px;
+}
+
+.stars p{
+    font-weight: 300;
+}
+
+#contact{
+    padding: 100px 0;
+}
+
+.row-contact{
+    display: flex;
+}
+
+.left-contact{
+    flex: 1;
+}
+
+.left-contact h2{
+    font-weight: 400;
+    font-size: 28px;
+}
+
+.left-contact p{
+    font-weight: 300;
+}
+
+.left-contact .social{
+    display: flex;
+    gap: 10px;
+}
+
+.social img{
+    width: 30px;
+}
+
+.left-contact p {
+    margin: 30px 0;
+}
+
+.right-contact{
+    flex: 2;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.right-contact form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.name{
+    width: 500px;
+    padding: 20px;
+    color: #2d2d2d;
+    background: #f3f3f3;
+    border: none;
+}
+
+textarea{
+    padding: 20px;
+    border: none;
+    background-color: #F3F3F3;
+    height: 100px;
+}
+
+.submit{
+    padding: 20px 60px;
+    width: fit-content;
+    background-color: #2d2d2d;
+    color: #fff;
+    border: none;
+}
+
+@media screen and (max-width:992px){
+    .container{
+        max-width: 900px;
+    }
+
+    .left-main h1{
+        font-size: 4rem;
+    }
+
+    .left-main h3{
+        font-size: 16px;
+    }
+
+    .row-card{
+        gap: 10px;
+    }
+
+    .row-card .card img{
+        width: 40%;
+    }
+
+    .row-card .card h3{
+        font-size: 21px;
+    }
+
+    .row-card .card{
+        gap: 15px;
+    }
+
+    .row-card .card p{
+        font-size: 14px;
+        width: auto;
+    }
+
+    .row-client{
+        gap: 20px;
+    }
+
+    .card-client p{
+        font-size: 15px;
+    }
+
+    .card-client .profile{
+        margin-top: 150px;
+    }
+
+    .left-contact{
+    }
+    .right-contact{
+        flex: 1;
+    }
+
+    form .name{
+        width: 250px;
+    }
+
+    .submit{
+        padding: 10px 30px;
+    }
+}
+
+@media screen and (max-width:768px){
+    .container{
+        width: 100%;
+        padding: 0;
+    }
+
+    .left-main h1{
+        font-size: 3rem;
+        font-weight: 500;
+    }
+
+    .square{
+        width: 70px;
+        left: -10px;
+        bottom: 40px;
+    }
+
+    .circle{
+        width: 70px;
+        right: -10px;
+    }
+
+    #logo img{
+        width: 60px;
+    }
+
+    .card-work img{
+        width: 90%;
+    }
+
+    .card-work{
+        gap: 5px;
+        padding: 5px;
+    }
+
+    .card-work h3{
+        font-size: 16px;
+    }
+
+    .card-client .star img{
+        width: 15px;
+    }
+
+    .card-client .span{
+        margin-bottom: 0;
+    }
+
+    .card-client .profile{
+        gap: 5px;
+    }
+
+    .profile p{
+        font-size: 12px;
+        white-space: nowrap;
+    }
+
+}
+
+@media screen and (max-width:568px){
+    header .navbar{
+        display: none;
+    }
+
+    header .container{
+        justify-content: center;
+    }
+
+    .row-main{
+        flex-direction: column;
+    }
+
+    .left-main{
+        text-align: center;
+        flex: 2;
+    }
+
+    .left-main h3{
+        font-size: 21px;
+    }
+
+    .right-main div{
+        flex: 1;
+        display: flex;
+        justify-content: center;
+    }
+
+    .right-main img:nth-child(1){
+        width: 80%;
+    }
+
+    .square{
+        left: 20px;
+    }
+
+    .circle{
+        right: 60px;
+    }
+
+    #logo .container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+        gap: 50px;
+        
+    }
+
+    #logo img{
+        width: 50%;
+    }
+
+
+    .row-work{
+        grid-template-areas: 
+        "c1"
+        "c2"
+        "c3"
+        "c4"
+        "c5"
+        "c6";
+        justify-items: center;
+        justify-content: center;
+    }
+
+    .row-work img{
+        width: 100%;
+    }
+
+    .row-card{
+        flex-direction: column;
+        justify-content: center;
+        gap: 50px !important;
+    }
+
+    .row-card .card h3{
+        font-size: 28px;
+    }
+
+    .row-card .card p{
+        width: 70%;
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    .card-work{
+        width: 100%;
+    }
+
+    .row-client{
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .card-client{
+        width: 80%;
+    }
+
+    .card-client p{
+        font-size: 21px;
+    }
+
+    .profile{
+        gap: 30px !important;
+        margin-top: 200px !important;
+    }
+
+    .profile .stars p{
+        font-size: 22px;
+    }
+
+    .profile img{
+        width: 70px;
+    }
+
+    .card-client .star img{
+        width: 20px;
+    }
+
+    .row-contact{
+        flex-direction: column;
+    }
+
+    .left-contact{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding: 20px ;
+    }
+
+    .right-contact{
+        flex: 1;
+        justify-content: center;
+    }
+
+    .name{
+        width: 100% !important;
+    }
+
+    .submit{
+        padding: 20px 40px;
+    }
+
+    .right-contact form{
+        width: 100%;
+        padding: 20px;
+    }
+}
+
+
