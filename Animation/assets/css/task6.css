@@ -1,0 +1,47 @@
+body{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    padding-top: 100px;
+    align-items: center;
+    color: green;
+}
+
+.divs{
+    display: flex;
+    gap: 20px;
+}
+
+.one,.two,.three{
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    animation: rotate 2s ;
+}
+
+.one{
+    animation-delay: .2s;
+}
+
+.two{
+    animation-delay: .4s;
+}
+
+.three{
+    animation-delay: .6s;
+}
+
+@keyframes rotate {
+    0%{
+        transform: rotate(0);
+    }
+
+    50%{
+        transform: rotate(-180deg);
+        background: #858585;
+    }
+
+    100%{
+        transform: rotate(0);
+    }
+}

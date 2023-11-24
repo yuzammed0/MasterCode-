@@ -1,0 +1,49 @@
+.title{
+    color: green;
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+ul li{
+    font-size: 24px;
+}
+
+
+li {
+    width: 100%;
+    animation: move 2s infinite;
+}
+
+.normal {
+    animation-direction: normal;
+}
+
+.reverse{
+    animation-direction: reverse;
+}
+
+.alt{
+    animation-direction: alternate;
+}
+
+.altr {
+    animation-direction: alternate-reverse;
+}
+
+@keyframes move {
+    from {
+        margin-left: 300px;
+    }
+
+    to {
+        margin-left: 0%;
+    }
+}

@@ -1,0 +1,44 @@
+.title{
+    color: green;
+    font-size: 28px;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+ul span{
+    color: green;
+    font-size: 18px;
+    animation: font .5s forwards;
+}
+
+.one{
+    animation-delay: .5s;
+}
+
+.two{
+    animation-delay: 1s;
+}
+
+.three{
+    animation-delay: 1.5s;
+}
+
+.four{
+    animation-delay: 2s;
+}
+
+.five{
+    animation-delay: 2.5s;
+}
+
+
+@keyframes font{
+    from{
+        font-size: 18px;
+    }to{
+        font-size: 28px;
+    }
+}

@@ -1,0 +1,36 @@
+.title {
+    color: green;
+}
+
+.btn {
+    padding: 15px 30px;
+    background: none;
+    color: green;
+    border: 2px solid green;
+    font-size: 21px;
+    margin: 15px;
+    transform: skew(-20deg);
+    cursor: pointer;
+}
+
+.btn:hover {
+    animation: skew .2s linear 2;
+}
+
+@keyframes skew {
+    0% {
+        transform: skew(-20deg);
+    }
+
+    30%{
+        transform: skew(20deg);
+    }
+
+    50%{
+        transform: skew(0deg);
+    }
+
+    100%{
+        transform: skew(-20deg);
+    }
+}

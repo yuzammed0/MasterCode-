@@ -1,0 +1,28 @@
+.box{
+    width: 400px;
+    height: 70px;
+    border: 2px solid;
+}
+
+.bar{
+    width: 150px;
+    height: 100%;
+    background-color: blue;
+}
+
+.one{
+    animation: width 2s linear forwards;
+}
+
+.two{
+    animation: width 2s steps(3) forwards;
+}
+
+@keyframes width {
+    from{
+        width: 150px;
+    }
+    to{
+        width: 250px;
+    }
+}
