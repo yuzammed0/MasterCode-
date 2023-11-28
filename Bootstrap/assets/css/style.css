@@ -124,6 +124,36 @@ i{
     border-radius: 15px;
 }
 
+.buton{
+    background: rgba(255, 255, 255, 0.80);
+    padding: 8px 20px;
+    font-size: 14px;
+    position: absolute;
+}
+
+.icon{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.icon img{
+    width: 80px;
+    cursor: pointer;
+}
+
+.l{
+    left: 0;
+    top: 200px;
+    z-index: -1;
+}
+
+.r{
+    top: 280px;
+    left: 380px;
+    z-index: -1;
+}
+
 .btns span{
     margin: 0 15px;
     padding: 12px 25px;
