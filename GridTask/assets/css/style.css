@@ -1,0 +1,339 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 10px;
+    position: relative;
+}
+
+.logos{
+    position: absolute;
+    left: 0;
+    top: 10px;
+}
+
+.logos img{
+    position: absolute;
+}
+
+.logos img:nth-child(3){
+    left: 70px;
+    width: 120px;
+}
+
+.logos img:nth-child(1){
+    left: 150px;
+    top: 30px;
+    width: 60px;
+}
+
+.logos img:nth-child(2){
+    left: 160px;
+    top: 10px;
+    width: 40px;
+}
+
+#header {
+    padding: 100px 0;
+}
+
+#header .row {
+    display: flex;
+}
+
+.col-2 {
+    flex: 2;
+}
+
+.col-2 h4 {
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.col-2 h2 {
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+
+.col-1 {
+    flex: 1;
+}
+
+#header .col-1 img {
+    width: 200px;
+    box-shadow: -5px -5px rgb(233, 37, 119);
+    float: inline-end;
+}
+
+.red {
+    color: rgb(233, 37, 119);
+    font-weight: 600;
+}
+
+.i {
+    font-style: italic;
+    font-weight: 400;
+}
+
+#calendar .row {
+    display: flex;
+    justify-content: space-between;
+    gap: 150px;
+}
+
+#calendar .col-1 {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    background-color: #DDEEFE;
+    padding: 40px 40px 0 40px;
+    width: 90%;
+}
+
+.card .img {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.card img {
+    width: 85%;
+    margin-top: 50px;
+}
+
+.card p {
+    margin: 10px 0;
+    font-size: 14px;
+}
+
+.card h3 {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.card span {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.card i {
+    margin-left: 10px;
+}
+
+#free {
+    padding: 100px 0;
+}
+
+#free .col-1 {
+    position: relative;
+}
+
+.title {
+    text-transform: uppercase;
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.row {
+    display: flex;
+}
+
+.modal {
+    padding: 20px;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.09);
+    position: absolute;
+    left: -180px;
+    top: 100px;
+    background-color: #fff;
+}
+
+.modal h3 {
+    font-size: 21px;
+    font-weight: 500;
+}
+
+.modal h3 span {
+    font-size: 18px;
+}
+
+.modal p {
+    margin: 10px 0;
+    font-weight: 400;
+}
+
+.modal .client {
+    font-size: 14px;
+}
+
+.modal .check {
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.check i {
+    margin-left: 10px;
+}
+
+#active .top{
+    display: flex;
+}
+
+.top .image img{
+    box-shadow: -6px 9px rgb(233, 37, 119);
+}
+
+.top .content{
+    margin-left: 20px;
+}
+
+#active ul{
+    padding-left: 20px;
+    margin-bottom: 20px;
+    color: rgb(233, 37, 119);
+}
+
+#active ul li span{
+    color: #000;
+}
+
+.subtitle{
+    margin-bottom: 10px;
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.content h3{
+    font-weight: 600;
+}
+
+.content p{
+    margin: 10px 0;
+}
+
+.content h4{
+    color: #7D7D8D;
+    font-size: 14px;
+}
+
+.bottom{
+    margin: 100px 300px;
+    position: relative;
+}
+
+.bottom p{
+    margin: 10px 0 20px;
+}
+
+.bottom h3{
+    font-size: 26px;
+    font-weight: 500;
+}
+
+i{
+    margin-left: 10px;
+}
+
+.bold{
+    font-weight: 600;
+}
+
+#work{
+    padding: 100px 0;
+}
+
+#work h1{
+    font-size: 36px;
+    margin-bottom: 50px;
+}
+
+#work a{
+    color: rgb(233, 37, 119);
+    font-weight: 500;
+}
+
+#work span{
+    margin-right: 10px;
+}
+
+.container.row{
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.l span:nth-child(1){
+    margin-right: 50px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.l span:nth-child(2){
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.r ul{
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.r ul{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.r li:nth-child(2){
+    color: rgb(233, 37, 119);
+}
+
+.r li:nth-child(3){
+    color: #00AB6B;
+}
+
+.r li:nth-child(4){
+    color: #1769FF;
+}
+
+.r li:nth-child(4){
+    color: #0077B5;
+}
+
+.top .imgs{
+    position: absolute;
+    right: 0;
+    top: 170px;
+}
+
+.top .imgs img:nth-child(2){
+    position: absolute;
+    top: -10px;
+    width: 70px;
+    left: -10px;
+}
+
+.bottom .imgs{
+    position: absolute;
+    right: 0;
+    left: -320px;
+}
+
+.bottom .imgs img:nth-child(2){
+    position: absolute;
+    top: 70px;
+    width: 70px;
+    left: 100px;
+}
