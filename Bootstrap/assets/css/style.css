@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Syne:wght@400;500;600;700&display=swap');
+
+.navbar{
+    background: #1e1e1e;
+    color: #fff;
+}
+
+body{
+    font-family: 'Syne';
+    background: #101113;
+    color: #fff;
+}
+
+.navbar-brand{
+    font-family:'Righteous', sans-serif;
+    font-size: 24px;
+    color: #fff;
+}
+
+.navbar-brand span{
+    color: #A6A001;
+}
+
+.nav-link{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+i{
+    color: #fff;
+}
+
+.col-6 .image img{
+    width: 70%;
+}
+
+.left h6{
+    font-size: 14px;
+}
+
+.left h1{
+    font-size: 51px;
+}
+
+.left h1 span{
+    color: #A6A001;
+}
+
+.left p{
+    padding: 20px 0;
+}
+.lets{
+    position: relative;
+    z-index: 99;
+}
+
+.lets img{
+    position: absolute;
+    z-index: -1;
+    left: -5px;
+    top: -8px;
+}
+
+#logo{
+    margin: 100px 0;
+}
+
+.logos{
+    background: #1E1E1E;
+    height: 60px;
+}
+
+#cards .card{
+    background-color: #1e1e1e;
+    color: #fff;
+    position: relative;
+    border-radius: 15px;
+}
+
+#cards .card img{
+    position: relative;
+    top: 10px;
+    left: 10px;
+    width: 80px;
+    padding: 10px 0 100px 0;
+}
+
+#cards .card-title{
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+
+#cards .card-text{
+    color: #acacac;
+    font-size: 14px;
+}
+
+.rotate{
+    position: absolute;
+    top: 40%;
+    right: -80px;
+    transform: rotate(90deg);
+    color: #1E1E1E;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+#portfolio{
+    padding: 50px 0;
+}
+
+.title{
+    text-transform: uppercase;
+    color: #A6A001;
+    text-align: center;
+}
+
+.btns{
+    margin: 0 auto;
+    width: fit-content;
+    padding: 25px 5px;
+    background: #1e1e1e;
+    border-radius: 15px;
+}
+
+.btns span{
+    margin: 0 15px;
+    padding: 12px 25px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.active{
+    background: #A6A001;
+}
+
+.galery{
+    margin-top: 40px;
+}
+
+.galery .img{
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: contain;
+    border-radius: 15px;
+    margin: 10px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.img1{
+    background: url(../image/Rectangle\ 19765.png);
+}
+
+.img2{
+    background: url(../image/Rectangle\ 19766.png);
+}
+
+.img3{
+    background: url(../image/Rectangle\ 19786.png);
+}
+
+.img4{
+    background: url(../image/Rectangle\ 19767.png);
+}
+
+.img5{
+    background: url(../image/Rectangle\ 19787.png);
+}
+
+.img6{
+    background: url(../image/Rectangle\ 19788.png);
+}
+
+#portfolio .lets{
+    width: fit-content;
+    margin-top: 50px;
+}
+
+#portfolio .rotate{
+    width: fit-content;
+    left: -190px;
+    top: 50%;
+}
+
+#reviews{
+    padding: 100px 0;
+}
+
+.box{
+    background: #1E1E1E;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.box .img-re{
+    padding: 30px;
+}
+
+.content h2{
+    font-weight: 400;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.content p{
+    color: #a9a9a9;
+    width: 85%;
+}
+
+#reviews .rotate{
+    right: -250px;
+    top: 45%;
+}
+
+#blog{
+    padding: 50px 0;
+}
+
+#blog .card{
+    background: none;
+    color: #fff;
+    border: none;
+}
+
+#blog .card-body{
+    padding: 0;
+}
+
+#blog .card-title{
+    padding: 10px 0;
+    font-size: 24px;
+}
+
+#blog .card-text{
+    color: #a9a9a9;
+}
+
+#footer{
+    padding: 50px 0 0 0;
+    background: #1E1E1E;
+}
+
+#footer ul {
+    list-style: none;
+}
+
+#footer ul li:nth-child(1){
+    font-size: 21px;
+}
+
+#footer ul li{
+    font-size: 14px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+#footer select{
+    background: none;
+    color: #fff;
+    border: none;
+    border-bottom: 1px solid #3e3e3e;
+    font-size: 14px;
+    padding: 10px 0;
+    font-weight: 300;
+}
+
+#footer .navbar-brand{
+    font-size: 28px;
+}
+
+#footer p{
+    font-size: 14px;
+    color: #fff;
+    padding: 20px 0;
+}
+.phone{
+    margin-bottom: 5px;
+}
+
+#footer .phone img{
+    padding: 5px;
+    background-color: #fff;
+    opacity: .2;
+}
+
+#footer h6{
+    font-size: 12px;
+    text-align: center;
+    border-top: 1px solid #3e3e3e;
+    padding: 10px 0;
+    margin: 0;
+}
