@@ -220,6 +220,29 @@ body {
     margin-bottom: 20px;
 }
 
+.box-dark img{
+    width: 100%;
+}
+
+.box-dark{
+    color: #fff;
+    overflow: hidden;
+}
+
+.box-dark .row{
+    position: relative;
+    left: -10%;
+}
+
+.box-dark .col-lg-5 {
+    background: url('../image/commenr.png');
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position: center center;
+    padding: 20px;
+    font-weight: 400;
+}
+
 @media screen and (max-width:768px) {
     .services .haed{
         flex-direction: column;
@@ -274,4 +297,39 @@ body {
     .box .right img{
         width: 100%;
     }
+
+    .row.dark{
+        flex-wrap: nowrap !important;
+        overflow: auto;
+        background: none;
+        gap: 20px;
+    }
+
+    .dark .content{
+        background: #191A23;
+        padding: 20px;
+        border-radius: 20px;
+    }
+
+    .box-a,.box-b{
+        border: none;
+    }
+
+}
+
+
+@media screen and (max-width:992px) {
+    .happen img{
+        display: none;
+    }
+
+
+
+
+
+
+
+
+
+
 }
