@@ -1,10 +1,10 @@
-const reversedStr = (str)=>{
+const isPalinodrome = (str)=>{
     let reversed =''
     for(let i=str.length-1;i>=0;i--){
         reversed+=str[i]
     }
 
-    return reversed
+    return reversed == str
 }
 
-console.log(reversedStr('hello'))
+console.log(isPalinodrome('ses'))
