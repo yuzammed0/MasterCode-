@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo APP</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <section id="todo">
+        <div class="top">
+            <div class="todo-box">
+                <div class="todo-nav">
+                    <span>TODO</span>
+                    <i class="fa-solid fa-circle-half-stroke"></i>
+                </div>
+
+                <div class="todo-group">
+                    <div class="check">
+                        <img class="circle" src="one.svg">
+                    </div>
+                    <input type="text" placeholder="Create a new todo…">
+                </div>
+
+                <ul class="added">
+                    <li class="todo-group">
+                        <img class="circle" src="one.svg">
+                        <span> Jog around the park 3x</span>
+                    </li>
+
+                    <li class="todo-group">
+                        <img class="circle" src="one.svg">
+                        <span> Jog around the park 3x</span>
+                    </li>
+
+                    <li class="todo-group">
+                        <img class="circle" src="one.svg">
+                        <span> Jog around the park 3x</span>
+                    </li>
+                </ul>
+
+                <div class="nav-bottom">
+                    <span class="item">5 item left</span>
+                    <div class="sort">
+                        <span class="all click">ALL</span>
+                        <span class="active">Active</span>
+                        <span class="completed">Completed</span>
+                    </div>
+                    <span class="clear">Clear Complated</span>
+                </div>
+
+                <span class="drag">Drag and drop to reorder list</span>
+            </div>
+        </div>
+        <div class="bottom"></div>
+    </section>
+
+<script src="JS/app.js"></script>
+</body>
+
+</html>
